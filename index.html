@@ -1,38 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QKQ7VJG9ZG"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'G-QKQ7VJG9ZG');
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QKQ7VJG9ZG"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-QKQ7VJG9ZG');
+  </script>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Life Calendar - Minimalist Live Wallpaper for Stoic Living</title>
+  <meta name="description"
+    content="Transform your Android home screen with The Life Calendar live wallpaper. Visualize your life in weeks, stay mindful with Memento Mori, and track goals automatically. The best native alternative to complex web shortcuts." />
+  <meta name="keywords"
+    content="Life Calendar, Memento Mori Wallpapers, Android Live Wallpaper, Life in Weeks, Tim Urban, Stoic Apps, Productivity Tools, Goal Tracker, Visual Life Progress, Minimalist Wallpaper, Mindful Living App" />
+  <meta name="author" content="HoxLabs" />
+  <link rel="canonical" href="https://thelifecalendar.hoxlabs.com/" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://thelifecalendar.hoxlabs.com/" />
+  <meta property="og:title" content="The Life Calendar - Visualize Your Life in Weeks" />
+  <meta property="og:description"
+    content="The native Android live wallpaper that visualizes your life progress automatically. No shortcuts needed – just pure, mindful motivation on your home screen." />
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/niteshmandall/thelifecalendar/main/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:title" content="The Life Calendar - Native Android Wallpaper" />
+  <meta property="twitter:description"
+    content="Visualize your life in weeks. The native Android alternative to complex web shortcuts. Stay mindful and productive." />
+  <meta property="twitter:image"
+    content="https://raw.githubusercontent.com/niteshmandall/thelifecalendar/main/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "The Life Calendar",
+        "operatingSystem": "Android",
+        "applicationCategory": "ProductivityApplication",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "author": {
+          "@type": "Organization",
+          "name": "HoxLabs",
+          "url": "https://thelifecalendar.hoxlabs.com/"
+        },
+        "description": "A minimalist live wallpaper that helps you stay mindful of your time by visualizing your life in weeks directly on your home screen.",
+        "image": "https://raw.githubusercontent.com/niteshmandall/thelifecalendar/main/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+        "featureList": "Year Progress Tracking, Life in Weeks Visualization, Goal Tracking, Minimalist Design, Live Wallpaper",
+        "sameAs": [
+          "https://github.com/niteshmandall/thelifecalendar"
+        ]
+      }
     </script>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Life Calendar - Minimalist Live Wallpaper</title>
-    <meta name="description" content="The native Android Life Calendar. Visualize your life in weeks directly on your home screen. No complex setup, no shortcuts—just a beautiful, automatic live wallpaper for mindful living." />
-    <meta name="keywords" content="Life Calendar, Memento Mori, Android Live Wallpaper, Mindful Living, Tim Urban, Life in Weeks, Productivity, Stoicism, Wallpaper App" />
-    <meta name="author" content="HoxLabs" />
+</head>
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://thelifecalendar.app/" />
-    <meta property="og:title" content="The Life Calendar - Native Android Wallpaper" />
-    <meta property="og:description" content="Forget complex web shortcuts. Get the native live wallpaper that visualizes your life progress automatically." />
-    <meta property="og:image" content="https://raw.githubusercontent.com/niteshmandall/thelifecalendar/main/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:title" content="The Life Calendar - Native Android Wallpaper" />
-    <meta property="twitter:description" content="Visualize your life in weeks. The native Android alternative to complex web shortcuts." />
-    <meta property="twitter:image" content="https://raw.githubusercontent.com/niteshmandall/thelifecalendar/main/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
 </html>
